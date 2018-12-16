@@ -1,0 +1,12 @@
+# Basic Text Analysis shiny App
+source("https://raw.githubusercontent.com/sudhir-voleti/tidy-sentiment-analysis/df0fba669960a477363d1f73591fc61f077afbb0/dependency-tidy-sentiment-analysis.R")
+runGitHub("basic-text-analysis-shinyapp", "sudhir-voleti")
+
+
+# Basic Sentiment Analysis App
+source("https://raw.githubusercontent.com/sudhir-voleti/tidy-sentiment-analysis/master/dependency-tidy-sentiment-analysis.R")
+runGitHub("tidy-sentiment-analysis","sudhir-voleti")
+
+
+source("https://raw.githubusercontent.com/sudhir-voleti/text-segmentation-shinyapp/master/dependency-text-segmentation-shinyapp.R")
+runGitHub("text-segmentation-shinyapp","sudhir-voleti")
